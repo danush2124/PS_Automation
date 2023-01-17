@@ -1,0 +1,4 @@
+port 17/1/c8 params admin enable
+port 17/1/c8 alias test_port2
+port 17/1/c8 type tool
+port 17/1/c8 comment "demo use port"
