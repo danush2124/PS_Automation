@@ -20,7 +20,7 @@ if __name__ == "__main__":
     cluster_device_ip_list = []
     fm = FM(fm_ip, fmUser, fmPasswd)
     node_list = fm.get_device_inventory()
-    out_df = create_cluster_match(node_list, fm_ip)
+    #out_df = create_cluster_match(node_list, fm_ip)
     #print(out_df)
     #print('\n')
     processes = []
