@@ -21,8 +21,8 @@ if __name__ == "__main__":
     fm = FM(fm_ip, fmUser, fmPasswd)
     node_list = fm.get_device_inventory()
     out_df = create_cluster_match(node_list, fm_ip)
-    print(out_df)
-    print('\n')
+    #print(out_df)
+    #print('\n')
     processes = []
     df = out_df
     device_list = user_device_list.split(",")
