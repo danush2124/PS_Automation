@@ -90,8 +90,8 @@ def wait_for_config_prompt_ready(g_c, command):
 
 
 """
-do_config(argument1, argument2, argument3, argument4) this backups
-the device and creates the backup files in the specified directory
+do_config(argument1, argument2, argument3, argument4) this records
+the device configuration to the log files in the specified directory
 argument1= the IP of the Gigamon device you want to connect to
 argument2= username for the Gigamon device login
 argument3= password for the Gigamon device login
