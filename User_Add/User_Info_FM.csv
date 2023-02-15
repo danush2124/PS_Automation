@@ -1,0 +1,3 @@
+User_Full_Name,User_Role,User_Name,User_Password,ClusterIP
+Test_User1,Default,test1,<input_password>,10.61.110.63
+Test_User2,monitor,test2,<input_password>,10.61.110.63
