@@ -474,7 +474,7 @@ def do_config(device_ip, device_user, device_passwd, hostname):
     print("\n")
     f.write(output)
     f.write('\n')
-    GigamonDevice_send(g_c, "conf t", 0)
+    GigamonDevice_send(g_c, "exit", 0)
     output = GigamonDevice_recv(g_c, 1)
     print("Exit ssh session")
     print("\n")
