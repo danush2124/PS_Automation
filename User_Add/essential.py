@@ -224,8 +224,8 @@ def do_password_change(device_ip, device_user, device_passwd, new_password):
 
 def create_user(device_ip, device_user, device_passwd, user_list):
     for info_list in user_list:
-        new_password = info_list[0]
-        new_user = info_list[1]
+        new_password = info_list[1]
+        new_user = info_list[0]
         full_name = info_list[2]
         user_role = info_list[3]
         print(device_ip)
