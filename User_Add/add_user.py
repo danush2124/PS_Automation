@@ -23,7 +23,7 @@ if __name__ == "__main__":
         for i in range(0, len(out_df)):
             out_list.append([df["User_Name"][i], df["User_Password"][i], df["User_Full_Name"][i], df["User_Role"][i]])
         exec_dict[cluster] = out_list
-    print(exec_dict)
-    print(df)
+    #print(exec_dict)
+    #print(df)
     for cl_ip in exec_dict.keys():
         create_user(cl_ip, device_current_admin_username, device_current_admin_password, exec_dict[cl_ip])
